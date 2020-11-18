@@ -6,7 +6,7 @@
   <link href="https://daihxu.github.io/atom.xml" rel="self"/>
   
   <link href="https://daihxu.github.io/"/>
-  <updated>2020-11-16T10:18:54.643Z</updated>
+  <updated>2020-11-18T15:52:58.869Z</updated>
   <id>https://daihxu.github.io/</id>
   
   <author>
@@ -17,12 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>setantenv</title>
-    <link href="https://daihxu.github.io/2020/11/16/setantenv/"/>
-    <id>https://daihxu.github.io/2020/11/16/setantenv/</id>
-    <published>2020-11-16T10:18:54.000Z</published>
-    <updated>2020-11-16T10:18:54.643Z</updated>
+    <title>Hello World</title>
+    <link href="https://daihxu.github.io/2020/11/19/hello-world-back/"/>
+    <id>https://daihxu.github.io/2020/11/19/hello-world-back/</id>
+    <published>2020-11-18T16:22:40.320Z</published>
+    <updated>2020-11-18T15:52:58.869Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
     
     
     
@@ -31,10 +39,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://daihxu.github.io/2020/11/16/hello-world/"/>
-    <id>https://daihxu.github.io/2020/11/16/hello-world/</id>
-    <published>2020-11-15T17:33:03.919Z</published>
-    <updated>2020-11-15T17:33:03.919Z</updated>
+    <link href="https://daihxu.github.io/2020/11/18/hello-world/"/>
+    <id>https://daihxu.github.io/2020/11/18/hello-world/</id>
+    <published>2020-11-18T15:52:58.868Z</published>
+    <updated>2020-11-18T15:52:58.869Z</updated>
     
     
       
