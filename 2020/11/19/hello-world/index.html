@@ -837,6 +837,10 @@
     .valine-card .card-content {
         padding: 20px 20px 5px 20px;
     }
+    .v[data-class="v"] .vwrap .vheader .vinput {
+        width: 32%;
+        border-bottom: 1px dashed #dedede;
+    }
 
     #vcomments textarea {
         box-sizing: border-box;
@@ -1070,14 +1074,17 @@
         <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
         <span>评论</span>
     </div>
-    <div id="vcomments" class="card-content" style="display: grid">
+    <div id="vcomments" class="card-content" style="display: grid;">
     </div>
 </div>
 
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/gh/small-rose/small-rose.github.io/libs/valine/Valine.min.js"></script>-->
 <script>
-    new Valine({
+    let metaPlaceholder = {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"} ;
+//这里要换行
+new Valine({
         el: '#vcomments',
         appId: 'kUGqwMRlwIHbV33Yw0lrirUK-gzGzoHsz',
         appKey: 'WIMm9RpO6jRnEWz4opJviM3j',
@@ -1086,8 +1093,17 @@
         visitor: 'true' === 'true',
         avatar: 'mm',
         pageSize: '10',
-        lang: 'zh-cn',
-        placeholder: 'just go go'
+        lang: 'zh-CN',
+        placeholder: '分享你刚编的评论',
+        meta: ["nick", "mail", "link"],
+        recordIP: 'true' === 'true',
+        enableQQ: 'mm',
+        requiredFields: ["b37ed1ed41bdf7e6f2526c104ccf53d8"],
+        master: ["b37ed1ed41bdf7e6f2526c104ccf53d8"],
+        friends: ["c08508165c8eba9a77f8c2853xxxx09e", "901345d4c91ddfd8db0f175bbcfff0c8", "1512958e18378c98b498d5effe3e76ff"],
+        tagMeta: ["博主", "小伙伴", "访客"],
+        metaPlaceholder: metaPlaceholder,
+
     });
 </script>
 
