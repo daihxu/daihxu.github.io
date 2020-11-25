@@ -24,7 +24,7 @@ function updateCoords(e){
 			a.y=t,
 			a.color="#F00",a.radius=0.1,
 			a.alpha=0.5,
-			a.lineWidth=6,
+			a.lineWidth=3,
 			a.draw=function(){
 				ctx.globalAlpha=a.alpha,
 				ctx.beginPath(),
